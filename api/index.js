@@ -18,6 +18,8 @@ app.listen(3010, () =>{
     console.log('Server Listening on port 3010')
 });
 
+
+
 app.use("/api/user", userRoutes);
 app.use("/api/auth", authRoutes);
 
